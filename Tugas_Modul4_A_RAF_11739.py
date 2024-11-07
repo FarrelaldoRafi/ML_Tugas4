@@ -47,11 +47,10 @@ if uploaded_file is not None:
     st.markdown("<h1 style='text-align: center;'>Unsupervised Learning - RAFI</h1>", unsafe_allow_html=True)
     st.dataframe(input_data)
 
-    model_directory = r'C:\Users\PC\Documents\Kuliah\Semester 5\Machine Learning\Tugas4_A_11739'
     model_path = {
-        "AGG_model" : r'C:\Users\PC\Documents\Kuliah\Semester 5\Machine Learning\Tugas4_A_11739\AGG_model.pkl',
-        "KMeans_model" : r'C:\Users\PC\Documents\Kuliah\Semester 5\Machine Learning\Tugas4_A_11739\KMeans_model.pkl',
-        "DBSCAN_model" : r'C:\Users\PC\Documents\Kuliah\Semester 5\Machine Learning\Tugas4_A_11739\DBSCAN_model.pkl',
+        "AGG_model" : r'AGG_model.pkl',
+        "KMeans_model" : r'KMeans_model.pkl',
+        "DBSCAN_model" : r'DBSCAN_model.pkl',
     }
 
     models = {}
